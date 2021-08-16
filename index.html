@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Tarefa - Lucas</title>
+		<link rel="shortcut icon" href="https://cdn-images-1.medium.com/max/800/1*Mn_mGNUGxK6gCROym_z8Bg.png">
+
+		<!-- style -->
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<!-- google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div id="container">
+			<div class="nav">
+				<h1 id="title">Tarefas - Lucas</h1>
+			</div>
+
+
+			<!-- tarefa01 -->
+			<div class="tarefa">
+				<h2>Tarefa 01 - Calcular área de um triangulo</h2>
+				<hr class="hr">
+
+				<p>Insira dois valores nas caixas de texto abaixo para calcular a área de um triangulo!</p>
+
+				<div class="content">
+					<input name="base" id="base" placeholder="Insira aqui a base Ex: 8..." mask="99999" class="maskField">
+					<input name="altura" id="altura" placeholder="Insira aqui a altura Ex: 16..." mask="99999" class="maskField">
+					<button id="calcular" onclick="areaTriangulo()">calcular</button>
+
+					<div class="resultado">
+						<h2 id="area">NaN</h2>
+					</div>
+				</div>
+			</div>
+
+			<!-- tarefa02 -->
+			<div class="tarefa">
+				<h2>Tarefa 02 - Estrutura de repetição while</h2>
+				<hr class="hr">
+
+				<p>Aperte o botão para executar a impressão de uma serie de números multiplos de 5 começando do 1 até o 50!</p>
+
+				<div class="content">
+					<button id="calcular2" onclick="printNumbers()">imprimir numeros</button>
+					<div class="resultado">
+						<h2 id="numeros"></h2>
+					</div>
+				</div>
+			</div>
+
+			<!-- tarefa03 -->
+			<div class="tarefa">
+				<h2>Tarefa 03 - Verificação de maior ou menor de idade</h2>
+				<hr class="hr">
+
+				<p>Insira sua idade na caixa de texto abaixo!</p>
+
+				<div class="content">
+					<input name="idade" id="idade" placeholder="Insira aqui sua idade Ex: 15..." mask="999" class="maskField">
+					<button id="calcular3" onclick="verificarIdade()">verificar idade</button>
+					<div class="resultado">
+						<h2 id="verificacao"></h2>
+					</div>
+				</div>
+			</div>
+
+			<!-- tarefa01 -->
+			<div class="tarefa">
+				<h2>Tarefa 04 - Calcular o IMC (denovo)</h2>
+				<hr class="hr">
+
+				<p>Insira dois valores nas caixas de texto abaixo para calcular o IMC!</p>
+
+				<div class="content">
+					<input name="peso" id="peso" placeholder="Insira aqui seu peso Ex: 56,4" mask="999.99" class="maskField">
+					<input name="altura2" id="altura2" placeholder="Insira aqui sua altura Ex: 1,73" mask="9.99" class="maskField">
+					<button id="calcular4" onclick="calcula_imc()">calcular</button>
+
+					<div class="resultado">
+						<h2 id="imc">NaN</h2>
+					</div>
+				</div>
+			</div>
+		<footer class="footer">
+
+			<div class="mtop">
+				<a href="https://github.com/lucasbrasantos"><i class="fa fa-github"></i></a>
+			</div>
+			<div>
+				<p>Lucas - Tarefas &copy; 2021</p>
+			</div>
+
+		</footer>
+
+
+		<!-- script -->
+
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/mask.js"></script>
+		<script type="text/javascript" src="js/sweetAlert.js"></script>
+	</body>
+</html>

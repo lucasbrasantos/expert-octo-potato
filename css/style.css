@@ -1,0 +1,182 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    display: table;
+    scroll-behavior: smooth !important;
+}
+
+body{
+	display: table-cell;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+
+	background: #dadada;
+}
+
+#container{
+	height: auto;
+	background-image: url(https://wallpaperaccess.com/full/4240917.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.nav{
+	background: #F7DF1E;
+	text-align: center;
+	box-shadow: 0px 5px 40px;
+}
+
+#title{
+	margin: 0;
+	padding: 30px;
+	font-size: 48px;
+}
+
+.tarefa{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: white;
+	background: ;
+}
+
+.tarefa h2{
+	margin: 0;
+	margin-top: 100px;
+	font-size: 32px;
+}
+
+.tarefa p{
+	margin-bottom: 30px;
+	font-size: 18px;
+}
+
+.hr{
+	border: 2px solid #e97f16;
+	background: #e97f16;
+	width: 450px;	
+	border-radius: 8px;
+	margin-bottom: 50px;
+}
+
+.content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding-bottom: 100px;
+}
+
+#base, #altura, #idade, #peso, #altura2{
+	height: 30px;
+	width: 280px;
+	padding:10px;
+	margin-bottom: 20px;
+
+	border-color: #cccccc;
+	border-style: solid;
+	text-align: left;
+	border-width: 1px;
+	font-size: 16px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 9px 0px rgba(42,42,42, 1);  
+}
+
+.content input:focus {
+    outline: none;
+}
+
+#calcular, #calcular2, #calcular3, #calcular4{
+	text-transform: uppercase;
+	background: #e97f16;
+	padding: 10px 25px;
+	margin-top: 40px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+
+	font-weight: 600;
+	font-size: 20px;
+	box-shadow: 3px 3px 10px rgb(0 0 0 / 80%);
+}
+#calcular:hover, #calcular2:hover, #calcular3:hover, #calcular4:hover{
+	background: #FFA74F;
+}
+#calcular:active, #calcular2:active, #calcular3:active, #calcular4:active{
+	background: #BF6812;
+	box-shadow: none;
+}
+
+#area, #numeros, #imc{
+	display: none;
+	margin-top: 40px !important;
+	padding: 15px 20px;
+	border-radius: 12px;
+	width: auto;
+	background: #F7DF1E;
+	color: black;
+	font-size: 24px;
+}
+
+/*alert*/
+.swal-overlay {
+  background-color: rgba(0,0,0,20%);
+}
+
+.swal-modal{
+	background-color: rgba(255,255,255,100%);
+}
+
+.swal-button{
+	border: none;
+	background: none;
+	background: #00C9A7;
+	text-decoration: none;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+	transition: 0.3s;
+}
+.swal-button:hover{
+	background: #78cbf2;
+}
+.swal-button:focus{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+.swal-button:active{
+	background: #045B4C;
+	box-shadow: none;
+}
+/*footer*/
+.footer{
+	width: auto;
+	background-color: #292c2f;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.footer a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-color: #33383b;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-left: 3px;
+}
+
+.footer p{
+	font-size: 18px;
+	color: white;
+}
+
+.mtop{
+	margin-top: 20px;
+}
